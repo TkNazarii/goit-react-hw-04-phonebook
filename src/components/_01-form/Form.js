@@ -10,7 +10,7 @@ const Form = ({ alert, onSubmit }) => {
     number: ''
   });
 
-  const { id, name, number } = formData;
+  const { name, number } = formData;
 
   const handleChange = e => {
     const { name, value } = e.currentTarget;
