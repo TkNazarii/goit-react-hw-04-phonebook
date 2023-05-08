@@ -4,6 +4,7 @@ import Filter from './_02-filter';
 import List from './_03-List';
 import css from '../app.module.scss';
 
+
 export const App = () => {
   const [value, setValue] = useState('');
   const [contacts, setContacts] = useState([
